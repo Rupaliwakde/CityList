@@ -18,15 +18,4 @@ enum StringLiterals {
       static let ColorNavBar = UIColor.blue
     }
 
-    struct ConnectionMessages {
-      static let AlertTitle = "Sorry,No Internet Connection!!"
-      static let AlertMsg = "Make sure your device is connected to the internet"
-      static let okStr = "Ok"
-    }
-
-    static let jsonUrl = "https://dl.dropboxusercontent.com/s/2iodh4vg0eortkl/facts.json"
 }
-
-// MARK: - Refresh Bool var:
-
-var isRefreshing = false
